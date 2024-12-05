@@ -28,9 +28,9 @@ STATUS=Config.STATUS
 USER=Config.USER
 bot = Client(
     "InstaSessibon",
-    bot_token=Config.BOT_TOKEN,
-    api_id=Config.API_ID,
-    api_hash=Config.API_HASH,
+    bot_token=Config.BOT_TOKEN, "7408665714:AAFlNcl9R7ZcFH-vtcYOFS9Iwgt6ai86RSI",
+    api_id=Config.API_ID, "28120443",
+    api_hash=Config.API_HASH, "d955ce2babff1742eae26bb91231e6a5",
     workers=50,
     plugins=dict(root="plugins")
     )
